@@ -20,7 +20,7 @@ repositories {
 ```
 On app's build.gradle
 ```
-compile 'com.github.Cutta:GifView:1.1'
+implementation 'com.github.Cutta:GifView:1.4'
 ```
 
 # Usage
@@ -28,7 +28,6 @@ compile 'com.github.Cutta:GifView:1.1'
             <span style='color:#007997; '>android</span><span style='color:#800080; '>:</span><span style='color:#274796; '>id</span><span style='color:#808030; '>=</span><span style='color:#800000; '>"</span><span style='color:#0000e6; '>@+id/gif1</span><span style='color:#800000; '>"</span>
             <span style='color:#007997; '>android</span><span style='color:#800080; '>:</span><span style='color:#274796; '>layout_width</span><span style='color:#808030; '>=</span><span style='color:#800000; '>"</span><span style='color:#0000e6; '>wrap_content</span><span style='color:#800000; '>"</span>
             <span style='color:#007997; '>android</span><span style='color:#800080; '>:</span><span style='color:#274796; '>layout_height</span><span style='color:#808030; '>=</span><span style='color:#800000; '>"</span><span style='color:#0000e6; '>wrap_content</span><span style='color:#800000; '>"</span>
-            <span style='color:#007997; '>android</span><span style='color:#800080; '>:</span><span style='color:#274796; '>visibility</span><span style='color:#808030; '>=</span><span style='color:#800000; '>"</span><span style='color:#0000e6; '>gone</span><span style='color:#800000; '>"</span>
             <span style='color:#007997; '>custom</span><span style='color:#800080; '>:</span><span style='color:#274796; '>gif</span><span style='color:#808030; '>=</span><span style='color:#800000; '>"</span><span style='color:#0000e6; '>@mipmap/gif1</span><span style='color:#800000; '>"</span> <span style='color:#a65700; '>/></span>
 </pre>
             
@@ -40,9 +39,6 @@ compile 'com.github.Cutta:GifView:1.1'
                        gifView1.getGifResource();
                        gifView1.setMovieTime(time);
                        gifView1.getMovie();
-                       
-# Sample APK
-https://www.dropbox.com/s/a4rl91lmlm6loj0/base%20%281%29.apk?dl=0
 
 # Credits
 <a href = "https://plus.google.com/u/0/116948443141721480957"><img src = "https://raw.githubusercontent.com/florent37/DaVinci/master/mobile/src/main/res/drawable-hdpi/gplus.png"/></a>
